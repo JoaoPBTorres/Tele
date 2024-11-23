@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    background-color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cadastre {
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    color: #373764;
+}
+
+i {
+    color: #373764;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+
+.container h1 {
+    text-align: left;
+    color: #373764;
+    font-weight: 15px;
+    font-family: 'inter', sans-serif;
+    margin-bottom: 10px
+}
+
+.container p {
+    text-align: left;
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #373764;
+    
+}
+
+.preencher {
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+.input_data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+label {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #373764;
+    font-family: 'inter', sans-serif;
+}
+
+input[type="date"] {
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #373764;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"], 
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #373764;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #373764;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ebc748;
+}
+
+.links {
+    margin: 10px 0;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #5A7FCA;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #ebc748;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.microsoft-button {
+    background-color: #ECF0F1;
+    color: #373764;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.microsoft-button:hover {
+    background-color: #dadada;
+}
+
+
+
+/* bem vindo */
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+/* estilo do submenu*/
+nav ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    border: none;
+    z-index: 1000;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    white-space: nowrap;
+}
+
+nav ul li ul li:hover {
+    background-color:#f0f0f0;
+}   
+
+.icon {
+    color: #373764;
+}
+
+.itens-submenu {
+    margin-top: 10px;
+    color: #373764;
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+}
+
+.txt-link {
+    color: #373764;
+}
+
+
+.teste {
+    color: red;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+

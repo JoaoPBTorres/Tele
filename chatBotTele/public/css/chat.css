@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/*Cabeçalho*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    transition: left 0.2s ease-in-out;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.botaoPerfil {
+    margin-right: 10px;
+}
+
+
+/* Menu lateral */
+nav.menu-lateral {
+    width: 44px;
+    height: 100%;
+    background-color: #ECF0F1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 2;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.2s, left 0.2s;
+}
+
+nav.menu-lateral:hover {
+    width: 200px;
+}
+
+nav.menu-lateral:hover ~ header .logo {
+    margin-left: 220px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #373764;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;   
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    background: white;
+    border-radius: 10px;
+}
+
+ul li.item-menu a{
+    color: #373764;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 2%;
+    display: flex;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 10px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 20px;
+    margin-left: 3px;
+}

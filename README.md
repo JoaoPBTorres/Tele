@@ -1,4 +1,4 @@
-# Tele
+# Tele :dependabot:
 Sobre o Projeto
 
 Este projeto está em desenvolvimento e consiste em um chatbot para a empresa Telecontrol, especialista em Gestão de Pós-Vendas. O chatbot visa melhorar a interação com clientes, otimizando processos de suporte e fornecendo informações de forma rápida e eficiente.
